@@ -6,12 +6,16 @@ git remote add origin <NEW_REPO_URL>
 git remote set-url origin <NEW_REPO_URL>
 
 * Sync with the template 
-`git fetch origin`
-`git branch -M main`
-`git pull origin main --allow-unrelated-histories`
+```
+git fetch origin
+git branch -M main
+git pull origin main --allow-unrelated-histories
+```
+
 
 * Commit and push
-`git add .`
-`git commit -m "Initial project import"`
-`git push -u origin main`
-
+```
+git add .
+git commit -m "Initial project import"
+git push -u origin main
+```
